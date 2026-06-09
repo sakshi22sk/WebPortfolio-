@@ -1798,3 +1798,198 @@ background:linear-gradient(90deg,#7dd3fc,#a78bfa);
 -webkit-background-clip:text;
 color:transparent;
 }
+
+
+/* Resizing*/
+```css
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+========================================= */
+
+@media screen and (max-width: 768px) {
+
+  body{
+    overflow-x: hidden;
+  }
+
+  /* NAVBAR */
+  .nav{
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .nav ul{
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 0;
+  }
+
+  /* HERO SECTION */
+  .hero{
+    padding: 120px 20px 60px;
+    text-align: center;
+  }
+
+  .hero h1{
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+
+  .hero-description{
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .hero-buttons{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  /* ABOUT SECTION */
+  .about-grid{
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about-card{
+    width: 100%;
+  }
+
+  .photo img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* RESUME IMAGE */
+  .lpu-logo{
+    width: 100% !important;
+    padding-left: 0 !important;
+    display: block;
+    margin: auto;
+  }
+
+  /* EDUCATION CARDS */
+  .resume-cards{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .resume-card{
+    width: 100%;
+  }
+
+  /* SKILLS */
+  .skills-wrapper{
+    flex-direction: column;
+  }
+
+  .skills-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: visible;
+  }
+
+  .skill-card{
+    width: 100%;
+  }
+
+  .arrow{
+    display: none;
+  }
+
+  /* PROJECTS */
+  .projects-grid{
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .project-card{
+    width: 100%;
+  }
+
+  .flip-box{
+    width: 100%;
+  }
+
+  .flip-front img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* CERTIFICATIONS */
+  .cert-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .cert-card{
+    width: 100%;
+  }
+
+  /* CONTACT */
+  .contact-container{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .contact-left,
+  .contact-right{
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form textarea{
+    width: 100%;
+  }
+
+  /* FOOTER */
+  .footer-container{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+  }
+
+  /* PROCESS SECTION */
+  .process-grid{
+    grid-template-columns: 1fr;
+  }
+
+  /* HACKATHON */
+  .hackathon-row{
+    flex-direction: column;
+  }
+
+  .hackathon-box{
+    width: 100%;
+  }
+
+  /* CP SECTION */
+  .cp-container{
+    flex-direction: column;
+  }
+
+  .cp-card{
+    width: 100%;
+  }
+
+  /* ACHIEVEMENT IMAGES */
+  .image-row{
+    flex-direction: column;
+  }
+
+  .achievement-img{
+    width: 100%;
+    height: auto;
+  }
+
+  /* FLOATING OBJECTS */
+  .space-object,
+  .tech{
+    display: none;
+  }
+
+}
+```
