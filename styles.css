@@ -1992,4 +1992,9 @@ color:transparent;
   }
 
 }
-```
+.resume-image{
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: auto;
+}
