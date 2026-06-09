@@ -1998,3 +1998,23 @@ color:transparent;
   display: block;
   margin: auto;
 }
+img{
+  max-width: 100%;
+  height: auto;
+}
+.projects-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 25px;
+}
+section{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  box-sizing: border-box;
+}
